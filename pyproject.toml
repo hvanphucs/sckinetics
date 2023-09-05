@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools>=61.0"]
+requires = ["setuptools>=61", "setuptools-scm[toml]>=6.2"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -8,13 +8,65 @@ version = "1.0"
 authors = [
   { name="Example Author", email="author@example.com" },
 ]
-description = "A small example package"
+description = "sckinetics package"
 readme = "README.md"
 requires-python = ">=3.7"
+license = {file = "LICENSE"}
 classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Natural Language :: English",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: MacOS :: MacOS X",
+    "Operating System :: Microsoft :: Windows",
+    "Typing :: Typed",
     "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: MIT License",
-    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+    "Topic :: Scientific/Engineering :: Mathematics",
+    "Topic :: Scientific/Engineering :: Visualization",
+]
+
+dependencies = [
+	os,
+	time,
+	scanpy,
+	pandas,
+	numpy,
+	ceil,
+	njit,
+	norm,
+	sr_matrix,
+	cosine,
+	LabelEncoder,
+	DBSCAN,
+	sklearn,
+	tqdm,
+	contextlib,
+	joblib,
+	check_is_fitted,	
+	csr_matrix,
+	quiver_autoscale,
+	compute_velocity_on_grid,
+	collections,
+	seaborn,
+	matplotlib,
+	sklearn,
+	MOODS,
+	GC,
+	Genome,
+	read_motifs,
+	pandas2ri,
+	rpackages,
+	StrVector,
+	rpy2,
+	mygene,	
+	sparse
 ]
 
 [project.urls]
