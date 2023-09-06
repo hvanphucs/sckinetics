@@ -1,0 +1,16 @@
+pandas
+numpy
+scanpy
+scipy>=1.11.2
+tqdm
+matplotlib
+numba
+joblib
+seaborn
+scikit-learn
+biopython
+ucsc_genomes_downloader
+gimmemotifs
+rpy2
+MOODS-python
+scvelo

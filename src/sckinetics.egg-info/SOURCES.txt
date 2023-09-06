@@ -1,0 +1,16 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+src/sckinetics/EM.py
+src/sckinetics/__init__.py
+src/sckinetics/atac_processing_utils.py
+src/sckinetics/base.py
+src/sckinetics/graph_embedding.py
+src/sckinetics/tf_perturbation.py
+src/sckinetics/tf_targets.py
+src/sckinetics.egg-info/PKG-INFO
+src/sckinetics.egg-info/SOURCES.txt
+src/sckinetics.egg-info/dependency_links.txt
+src/sckinetics.egg-info/requires.txt
+src/sckinetics.egg-info/top_level.txt
