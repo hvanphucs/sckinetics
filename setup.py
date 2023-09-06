@@ -36,17 +36,17 @@ setuptools.setup(
 	"pandas",
 	"numpy",
 	"DBSCAN",
-	"sklearn",
+	"sklearn-pandas",
 	"tqdm",
 	"contextlib2",
 	"joblib",
 	"seaborn",
 	"matplotlib",
-	"sklearn",
 	"MOODS",
 	"bioconductor-genomeinfodb",
 	"rpy2",
 	"mygene",	
-	"sparse" ],
+	"sparse"
+     ],
 	python_requires = ">=3.7"
 )
