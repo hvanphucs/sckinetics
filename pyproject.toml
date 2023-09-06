@@ -31,24 +31,6 @@ classifiers = [
     "Topic :: Scientific/Engineering :: Mathematics",
     "Topic :: Scientific/Engineering :: Visualization",
 ]
-
-dependencies = [
-	"scanpy",
-	"pandas",
-	"numpy",
-	"DBSCAN",
-	"sklearn-pandas",
-	"tqdm",
-	"contextlib2",
-	"joblib",
-	"seaborn",
-	"matplotlib",
-	"bioconductor-genomeinfodb",
-	"rpy2",
-	"mygene",	
-	"sparse"
-]
-
 [project.urls]
 "Homepage" = "https://github.com/Lalit-shaktawat/scKINETICS"
 "Bug Tracker" = "https://github.com/Lalit-shaktawat/scKINETICS"
