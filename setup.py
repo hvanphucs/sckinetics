@@ -30,21 +30,5 @@ setuptools.setup(
     ],
     package_dir = {"": "src"},
     packages = setuptools.find_packages(where="src"),
-     install_requires=[
-	"scanpy",
-	"pandas",
-	"numpy",
-	"DBSCAN",
-	"sklearn-pandas",
-	"tqdm",
-	"contextlib2",
-	"joblib",
-	"seaborn",
-	"matplotlib",
-	"bioconductor-genomeinfodb",
-	"rpy2",
-	"mygene",	
-	"sparse"
-     ],
-	python_requires = ">=3.7"
+    python_requires = ">=3.7"
 )
