@@ -37,7 +37,6 @@ dependencies = [
 	"scanpy",
 	"pandas",
 	"numpy",
-	"simplecosine",
 	"DBSCAN",
 	"sklearn",
 	"tqdm",
