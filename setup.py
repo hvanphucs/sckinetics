@@ -41,7 +41,7 @@ setuptools.setup(
 	"joblib",
 	"seaborn",
 	"matplotlib",
-	"MOODS",
+	"moods",
 	"bioconductor-genomeinfodb",
 	"rpy2",
 	"mygene",	
