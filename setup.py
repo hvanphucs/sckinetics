@@ -35,7 +35,6 @@ setuptools.setup(
 	"scanpy",
 	"pandas",
 	"numpy",
-	"simplecosine",
 	"DBSCAN",
 	"sklearn",
 	"tqdm",
